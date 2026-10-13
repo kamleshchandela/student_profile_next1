@@ -2,68 +2,167 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="w-screen border flex justify-center items-center h-[90vh]">
+      <div className="w-[80%] border h-[90%]">
+        <div className="w-[100%] flex border-b p-4 h-[20%]">
+          <div className="w-[10%] text-[2vw] bg-blue-300 text-blue-800 rounded-[10%] font-bold border flex justify-center font-600 items-center h-[100%]">
+            AM
+          </div>
+          <div className="w-[100%] ml-4 h-[100%]">
+            <div className="w-[100%] h-[50%] pl-[3.5%] font-bold text-[2vw]">
+              Aarav Mehta
+            </div>
+            <div className="w-[100%] h-[50%] flex items-center">
+              <div className="w-[15%] h-[60%] ml-[3%] rounded bg-blue-200 text-[1vw] flex text-blue-800 font-bold justify-center items-center border">
+                STU-1234
+              </div>
+              <div className="w-[15%] h-[60%] ml-[3%] rounded flex text-green-800 text-[1vw] font-bold justify-center items-center border">
+                Active Student
+              </div>
+            </div>
+
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="border-b w-[100%] h-[20%]">
+          <div className=" flex w-[100%] h-[50%]">
+
+
+            <div className=" w-[50%] h-[100%]">
+              <div className="w-[100%] text-[1vw] text-gray-500 font-bold flex items-center pl-[1vw] h-[50%]  ">
+                DEPARTMENT
+              </div>
+              <div className="w-[100%] text-[1vw] text-gray-500 flex items-center pl-[1vw] h-[50%]  ">
+                Computer Science
+              </div>
+            </div>
+
+            <div className=" w-[50%] h-[100%]">
+              <div className="w-[100%] text-[1vw] text-gray-500 font-bold flex items-center pl-[1vw] h-[50%]  ">
+                STUDY YEAR
+              </div>
+              <div className="w-[100%] text-[1vw] text-gray-500 flex items-center pl-[1vw] h-[50%]  ">
+                3rd Year (Junior)
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div className=" flex w-[100%] h-[50%]">
+
+
+            <div className=" w-[50%] h-[100%]">
+              <div className="w-[100%] text-[1vw] text-gray-500 font-bold flex items-center pl-[1vw] h-[50%]  ">
+                EMAIL
+              </div>
+              <div className="w-[100%] text-[1vw] text-blue-500 flex items-center pl-[1vw] h-[50%]  ">
+                aarav.mehta@gmail.com
+              </div>
+            </div>
+
+            <div className=" w-[50%] h-[100%]">
+              <div className="w-[100%] text-[1vw] text-gray-500 font-bold flex items-center pl-[1vw] h-[50%]  ">
+                ENROLLED
+              </div>
+              <div className="w-[100%] text-[1vw] text-gray-500 flex items-center pl-[1vw] h-[50%]  ">
+                Fall 2022
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
         </div>
-      </main>
+
+
+        <div className="border-b w-[100%] h-[18%]">
+
+          <div className="w-[100%] flex items-center pl-[1vw] text-[1.5vw] font-bold h-[40%] ">
+            About
+          </div>
+          <div className="w-[100%] h-[60%] pl-[1vw] text-[1vw] flex justify-center items-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore illo nisi qui sint tempora modi, odit assumenda in doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cum perspiciatis incidunt voluptate sequi id assumenda quia, eaque aliquam nostrum.
+          </div>
+
+        </div>
+
+
+
+        <div className="border-b w-[100%] h-[18%]">
+          <div className="w-[100%] flex items-center pl-[1vw] text-[1.5vw] font-bold h-[40%] ">
+            Academic Details
+          </div>
+          <div className="w-[100%] flex h-[60%]">
+
+            <div className="w-[75%] border h-[100%]">
+              <div className="w-[100%] h-[50%] flex items-center pl-[1vw] text-[1vw] ">
+                Department
+              </div>
+              <div className="w-[100%] h-[50%] flex items-center pl-[1vw] text-[1vw] ">
+                Current Academic Standing
+              </div>
+
+            </div>
+            <div className="w-[25%] border h-[100%] ">
+              <div className="w-[100%] h-[50%] flex items-center pl-[1vw] text-[1vw] ">
+                Department
+              </div>
+              <div className="w-[100%] h-[50%] flex items-center pl-[1vw] text-[1vw] ">
+                Current Academic Standing
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div className="w-[100%] h-[6%] font-bold pl-[1vw] border flex items-center text-gray-800 text-[1vw]">
+          ENROLLED SUBJECT
+        </div>
+
+        <div className="w-[100%] flex h-[18%] border">
+          <div className="w-[75%] h-[100%]">
+            <div className="w-[100%] flex items-center pl-[1vw] h-[33%] ">
+              CS-301: Distrributed Systems & Microservices
+            </div>
+            <div className="w-[100%] flex items-center pl-[1vw] h-[33%] ">
+              CS-301: Distrributed Systems & Microservices
+            </div>
+            <div className="w-[100%] flex items-center pl-[1vw] h-[33%] ">
+              CS-301: Distrributed Systems & Microservices
+            </div>
+
+          </div>
+          <div className="w-[25%] h-[100%]">
+            <div className="w-[100%] flex items-center pl-[1vw] h-[33%] ">
+              Microservices
+            </div>
+            <div className="w-[100%] flex items-center pl-[1vw] h-[33%] ">
+              Microservices
+            </div>
+            <div className="w-[100%] flex items-center pl-[1vw] h-[33%] ">
+              Microservices
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
     </div>
   );
 }
