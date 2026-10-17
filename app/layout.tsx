@@ -12,7 +12,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body>
 
-        <nav className="w-screen border h-[7vh] flex item-center">
+        <nav className="w-[98vw] border h-[7vh] flex item-center">
           <Link className="w-[17%] h-[100%]" href={"/"}>
             <Image src={"/logo.png"} className="w-[100%] h-[100%]" width={300} height={300} alt="Logo" /></Link>
           <div className="flex ml-[10vw] w-[40%] font-bold gap-[1vw] h-[100%]">
